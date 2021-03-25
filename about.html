@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Insert bootstrap stylesheet cdn here -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Cats | About</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html"
+          ><img width="50" src="images/cat.png" alt="cat logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            <a class="nav-link" href="/about.html">About</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div
+        class="about-cover"
+        style="background-image: url('images/about-cover.jpg')"
+      ></div>
+    </section>
+    <section>
+      <!-- In this section the display should be 3 items per row on bigger screens(breakpoint:md) and 1 item per row on mobile -->
+      <!-- Hint use breakpoints and row-cols property -->
+      <div>
+        <h2>Cat Senses</h2>
+        <div>
+          <div>
+            <h3>Vision</h3>
+            <p>
+              Cats have excellent night vision and can see at only one-sixth the
+              light level required for human vision. This is partly the result
+              of cat eyes having a tapetum lucidum, which reflects any light
+              that passes through the retina back into the eye, thereby
+              increasing the eye's sensitivity to dim light.
+            </p>
+          </div>
+          <div>
+            <h3>Hearing</h3>
+            <p>
+              The domestic cat's hearing is most acute in the range of 500 Hz to
+              32 kHz. It can detect an extremely broad range of frequencies
+              ranging from 55 Hz to 79,000 Hz. It can hear a range of 10.5
+              octaves, while humans and dogs can hear ranges of about 9 octaves.
+            </p>
+          </div>
+          <div>
+            <h3>Smell</h3>
+            <p>
+              Cats have an acute sense of smell, due in part to their
+              well-developed olfactory bulb and a large surface of olfactory
+              mucosa, about 5.8 square centimetres (29⁄32 square inch) in area,
+              which is about twice that of humans. Cats and many other animals
+              have a Jacobson's organ in their mouths that is used in the
+              behavioral process of flehmening.
+            </p>
+          </div>
+          <div>
+            <h3>Taste</h3>
+            <p>
+              Cats have relatively few taste buds compared to humans (470 or so
+              versus more than 9,000 on the human tongue). Domestic and wild
+              cats share a taste receptor gene mutation that keeps their sweet
+              taste buds from binding to sugary molecules, leaving them with no
+              ability to taste sweetness.
+            </p>
+          </div>
+          <div>
+            <h3>Whiskers</h3>
+            <p>
+              To aid with navigation and sensation, cats have dozens of movable
+              whiskers (vibrissae) over their body, especially their faces.
+              These provide information on the width of gaps and on the location
+              of objects in the dark, both by touching objects directly and by
+              sensing air currents; they also trigger protective blink reflexes
+              to protect the eyes from damage
+            </p>
+          </div>
+          <div>
+            <h3>Balance</h3>
+            <p>
+              Outdoor cats are active both day and night, although they tend to
+              be slightly more active at night. Domestic cats spend the majority
+              of their time in the vicinity of their homes, but can range many
+              hundreds of meters from this central point. They establish
+              territories that vary considerably in size, in one study ranging
+              from 7 to 28 hectares (17–69 acres).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!-- In this section the display should be 3 items per row on bigger screens(breakpoint:md) and 1 item per row on mobile -->
+      <!-- Hint: Use breakpoints -->
+      <div>
+        <h2>Cat Breeds</h2>
+        <div>
+          <!-- Hint: to align the image and text, you can use bootstrap's flex classes per column  -->
+          <div>
+            <div
+              class="breed-img"
+              style="background-image: url('images/breeds/devon-rex.png')"
+            ></div>
+            <h3>Devon Rex</h3>
+          </div>
+          <div>
+            <div
+              class="breed-img"
+              style="
+                background-image: url('images/breeds/oriental-shorthair.jpg');
+              "
+            ></div>
+            <h3>Oriental Shorthair</h3>
+          </div>
+          <div>
+            <div
+              class="breed-img"
+              style="background-image: url('images/breeds/ragdoll.jpg')"
+            ></div>
+            <h3>Ragdoll</h3>
+          </div>
+          <div>
+            <div
+              class="breed-img"
+              style="background-image: url('images/breeds/scottish-fold.jpg')"
+            ></div>
+            <h3>Scottish Fold</h3>
+          </div>
+          <div>
+            <div
+              class="breed-img"
+              style="background-image: url('images/breeds/siberian.jpg')"
+            ></div>
+            <h3>Siberian</h3>
+          </div>
+          <div>
+            <div
+              class="breed-img"
+              style="background-image: url('images/breeds/sphynx.jpg')"
+            ></div>
+            <h3>Sphynx</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

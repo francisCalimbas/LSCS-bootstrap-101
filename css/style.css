@@ -1,0 +1,16 @@
+.about-cover {
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.breed-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
