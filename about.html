@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Insert bootstrap stylesheet cdn here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/style.css" />
     <title>Cats | About</title>
@@ -24,9 +27,11 @@
           aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >
+          >
+
           <span class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
             <a class="nav-link" aria-current="page" href="/index.html">Home</a>
@@ -34,6 +39,7 @@
           </div>
         </div>
       </div>
+    
     </nav>
 
     <section>
@@ -45,10 +51,11 @@
     <section>
       <!-- In this section the display should be 3 items per row on bigger screens(breakpoint:md) and 1 item per row on mobile -->
       <!-- Hint use breakpoints and row-cols property -->
-      <div>
+      <div class="container">
         <h2>Cat Senses</h2>
-        <div>
-          <div>
+        
+        <div class="row">
+          <div class="col-4 col-md-3">
             <h3>Vision</h3>
             <p>
               Cats have excellent night vision and can see at only one-sixth the
@@ -58,7 +65,8 @@
               increasing the eye's sensitivity to dim light.
             </p>
           </div>
-          <div>
+
+          <div class="col-4 col-md-3">
             <h3>Hearing</h3>
             <p>
               The domestic cat's hearing is most acute in the range of 500 Hz to
@@ -67,7 +75,8 @@
               octaves, while humans and dogs can hear ranges of about 9 octaves.
             </p>
           </div>
-          <div>
+
+          <div class="col-4 col-md-3">
             <h3>Smell</h3>
             <p>
               Cats have an acute sense of smell, due in part to their
@@ -78,7 +87,8 @@
               behavioral process of flehmening.
             </p>
           </div>
-          <div>
+
+          <div class="col-4 col-md-3">
             <h3>Taste</h3>
             <p>
               Cats have relatively few taste buds compared to humans (470 or so
@@ -88,7 +98,8 @@
               ability to taste sweetness.
             </p>
           </div>
-          <div>
+
+          <div class="col-4 col-md-3">
             <h3>Whiskers</h3>
             <p>
               To aid with navigation and sensation, cats have dozens of movable
@@ -99,7 +110,8 @@
               to protect the eyes from damage
             </p>
           </div>
-          <div>
+
+          <div class="col-4 col-md-3">
             <h3>Balance</h3>
             <p>
               Outdoor cats are active both day and night, although they tend to
@@ -110,13 +122,17 @@
               from 7 to 28 hectares (17–69 acres).
             </p>
           </div>
+
         </div>
+
       </div>
     </section>
+
+
     <section>
       <!-- In this section the display should be 3 items per row on bigger screens(breakpoint:md) and 1 item per row on mobile -->
       <!-- Hint: Use breakpoints -->
-      <div>
+      <div class="row">
         <h2>Cat Breeds</h2>
         <div>
           <!-- Hint: to align the image and text, you can use bootstrap's flex classes per column  -->
@@ -167,10 +183,12 @@
         </div>
       </div>
     </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
+  
   </body>
 </html>
